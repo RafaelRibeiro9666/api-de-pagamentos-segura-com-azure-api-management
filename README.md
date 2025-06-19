@@ -226,7 +226,7 @@ Espere de 15 a 25 minutos para executar a Parte 7 novamente.
 - Siga a rota mostrada na imagem:
 ![](CapturasdeTela/20.png)
 - Role a página até encontrar "Validate JWT":
-![](CapturasdeTela/21.png)
+- ![](CapturasdeTela/21.png)
 - Selecione "Full" e nessa primeira parte, formate do jeito que quiser.
 ![](CapturasdeTela/33.png)
 - Antes de completar a segunda parte, você terá que fazer uma outra configuração:
