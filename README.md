@@ -6,7 +6,7 @@
 - Azure
 - Postman
 
-## Parte 1: Criação do API Management
+## Parte 1: Criação do API Management:
 
 ### Criação do APIM:
 - Na página inicial do Azure, clique em "Criar um recurso".
@@ -161,12 +161,12 @@ O nome nos campos seguintes para preencher ficam a seu critério.
 ![](CapturasdeTela/18.png)
 - Depois de criado a nova subscription, selecione os três pontinhos e depois Show/hide keys. Extraia a "Primary key" da sua nova criação e salve em um bloco de notas, para ser consultado depois:
 ![](CapturasdeTela/19.png)
-## Parte 6: Registro do Aplicativo
+## Parte 6: Registro do Aplicativo:
 - 1.Vá para a página inicial do Azure e clique em "Microsoft Entra ID:
 ![](CapturasdeTela/22.png)
 - 2.Siga o que está na imagem:
 ![](CapturasdeTela/23.png)
-- 3.Registre o aplicativo novo com a formatação que desejar
+- 3.Registre o aplicativo novo com a formatação que desejar.
 ![](CapturasdeTela/24.png)
 - 4.Depois de criado o aplicativo, copie o código que está em "ID do aplicativo(cliente)" e salve em um bloco de notas, para ser consultado depois.
 ![](CapturasdeTela/25.png)
@@ -183,9 +183,9 @@ O nome nos campos seguintes para preencher ficam a seu critério.
 - Agora é o momento de usar alguns dos códigos salvos no bloco de notas.
 ## Na Parte 6.4:
 ```
-Pegue o "ID do aplicativo(cliente)" e insira na coluna "Value" do Postman
+Pegue o "ID do aplicativo(cliente)" e insira na coluna "Value" do Postman.
 
-Na coluna "Key", digite "client_id"
+Na coluna "Key", digite "client_id".
 ```
 ## Na Parte 6.5:
 ```
@@ -193,9 +193,9 @@ Pegue a URL do "Ponto de extremidade do token..." e insira na barra superior do 
 ```
 ## Na Parte 6.7:
 ```
-Pegue o valor da secret e insira na coluna "Value" do Postman
+Pegue o valor da secret e insira na coluna "Value" do Postman.
 
-Na coluna "Key", digite "client_secret"
+Na coluna "Key", digite "client_secret".
 ```
 ## Chaves e valores fornecidos pelo instrutor:
 ```
@@ -244,7 +244,7 @@ Pegue também a URL  do Open ID, localizada na parte 6.6 deste tutorial e coloqu
 ```
 ![](CapturasdeTela/37.png)
 ![](CapturasdeTela/36.png)
-- No Postman, use a URL que foi formatada na Parte 4
+- No Postman, use a URL que foi formatada na Parte 4:
 ```
 Na coluna "Key" digite "x-api-key" e na coluna "Value" Insira a "Primary key" do último passo da Parte 5.
 
