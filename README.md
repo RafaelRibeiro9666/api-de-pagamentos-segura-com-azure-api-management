@@ -115,11 +115,11 @@ Exemplo: Se você escolher Python, selecione a versão mais recente e estável d
 ```
 Manter a mesma região para todos os seus recursos ( APIM, Log Analytics etc) é uma ótima prática por motivos de latência, custos e organização.
 ```
-- Planos de Preços
+- Planos de Preços:
 ```
 Se foi criado ou sugerido algum nome, provavelmente ele está dentro do seu grupo de recursos e é o plano padrão para aquela região. Reutilizá-lo é eficiente, pois você não precisa criar um novo plano e pagar por recursos adicionais. Para uma atividade, um único plano geralmente é suficiente.
 ```
-- Redundância de zona
+- Redundância de zona:
 ```
  Para um projeto de atividade, o foco é demonstrar a funcionalidade da API e a integração com o APIM e Microsoft Entra ID. A alta disponibilidade extrema da redundância de zona não é um requisito. Ela também tem um custo associado e só está disponível em planos de preço mais caros (como Premium V2 ou V3). O plano Gratuito F1 ou Básico B1 não suportam redundância de zona.
 ```
@@ -162,7 +162,7 @@ O nome nos campos seguintes para preencher ficam a seu critério.
 - Depois de criado a nova subscription, selecione os três pontinhos e depois Show/hide keys. Extraia a "Primary key" da sua nova criação e salve em um bloco de notas, para ser consultado depois:
 ![](CapturasdeTela/19.png)
 ## Parte 6: Registro do Aplicativo:
-- 1.Vá para a página inicial do Azure e clique em "Microsoft Entra ID:
+- 1.Vá para a página inicial do Azure e clique em "Microsoft Entra ID":
 ![](CapturasdeTela/22.png)
 - 2.Siga o que está na imagem:
 ![](CapturasdeTela/23.png)
@@ -256,7 +256,7 @@ Na coluna "Key" digite "Authorization" e na coluna "Value" Insira o nome que voc
 ```
 No passo quatro, da Parte 9 pegue o código da configuração da API(na parte de "Expor uma API") e substitua o "https://graph.microsoft.com", mas mantenha o "/.default" no código novo do último passo da Parte 7(no "Value" do scope).
 
-Aperte send e colete o novo token, para ser inserido no terminal do jwt.io
+Aperte send e colete o novo token, para ser inserido no terminal do jwt.io.
 ```
 ![](CapturasdeTela/41.png)
 - Terminal do site jwt.io:
@@ -268,9 +268,9 @@ Perceba que além do "aud" ter mudado, "roles" também apareceu.
 ![](CapturasdeTela/39.png)
 - Dentro do </>, vá para:
 ```
-<audicence>https://graph.microsoft.com</audicence>
+<audicence>https://graph.microsoft.com</audicence>.
 
-Substitua o "https://graph.microsoft.com" pelo "api://...(sem o /.default)"
+Substitua o "https://graph.microsoft.com" pelo "api://...(sem o /.default)".
 ```
 - Atualize o token no "Value" e aperte em "Send". O resultado esperado é aquele que aparece na parte inferior da imagem:
 ![](CapturasdeTela/42.png)
